@@ -1,0 +1,39 @@
+
+.card{
+    width: 500px;
+    border: 2px solid rgb(232, 229, 229);
+    margin: 20px auto;
+    border-radius: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bg{
+    position: relative;
+}
+
+.bg_img{
+    width: 500px;
+    height: 200px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.man_img{
+    position: absolute;
+    bottom: -60px;
+    left: 180px;
+    height: 150px;
+    width: 150px;
+    border: 4px solid white;
+    border-radius: 50%;
+}
+
+.content{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.content p{
+    font-size: 20px;
+    color: rgb(125, 119, 119);
+}
